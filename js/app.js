@@ -46,7 +46,7 @@ define([
 
             // load a new web scene
             var scene = new Map({
-                basemap: "topo",
+                basemap: "gray-vector",
                 ground: "world-elevation"
             });
 
@@ -135,7 +135,7 @@ define([
 
             // add water bodies with water renderer
             var waterBodies = new FeatureLayer({
-                url: 'https://basisregistraties.arcgisonline.nl/arcgis/rest/services/BRT/BRT_TOP10NL/FeatureServer/120', // water bodies
+                url: 'https://services.arcgis.com/emS4w7iyWEQiulAb/arcgis/rest/services/Water_3D/FeatureServer', // water bodies
                 elevationInfo: {
                     mode: 'on-the-ground',
                 },

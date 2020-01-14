@@ -1,6 +1,6 @@
 # Nederland 3D Tijdreis
 
-Live demo: https://nielsvandervaart.github.io/3D-tijdreis/
+Live demo: https://nielsvandervaart.github.io/3D-Tijdreis/
 
 Based on original work by Lisa Stehli at the Esri R&D Center in Zurich. 
 Live Demo: [Zurich Time Travel](https://lisastaehli.github.io/zurich-time-travel/)

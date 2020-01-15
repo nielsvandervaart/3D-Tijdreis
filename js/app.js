@@ -133,30 +133,30 @@ define([
             )
             scene.add(this.buildingsLayer2);
 
-            // add water bodies with water renderer
-            var waterBodies = new FeatureLayer({
-                url: 'https://services.arcgis.com/emS4w7iyWEQiulAb/arcgis/rest/services/Water_3D/FeatureServer', // water bodies
-                elevationInfo: {
-                    mode: 'on-the-ground',
-                },
-                renderer: {
-                    type: "simple",
-                    symbol: {
-                        type: "polygon-3d",
-                        symbolLayers: [
-                            {
-                                type: "water",
-                                waveDirection: 260,
-                                color: "#2887a1",
-                                waveStrength: "moderate",
-                                waterbodySize: "medium"
-                            }
-                        ]
-                    }
-                }
-            });
+      //    // add water bodies with water renderer
+      //    var waterBodies = new FeatureLayer({
+      //        url: 'https://services.arcgis.com/emS4w7iyWEQiulAb/arcgis/rest/services/Water_3D/FeatureServer', // water bodies
+      //        elevationInfo: {
+      //            mode: 'on-the-ground',
+      //        },
+      //        renderer: {
+      //            type: "simple",
+      //            symbol: {
+      //                type: "polygon-3d",
+      //                symbolLayers: [
+      //                    {
+      //                        type: "water",
+      //                        waveDirection: 260,
+    //                            color: "#2887a1",
+    //                            waveStrength: "moderate",
+    //                            waterbodySize: "medium"
+    //                        }
+    //                    ]
+    //                }
+    //            }
+    //        });
 
-            scene.add(waterBodies);
+  //          scene.add(waterBodies);
 
             // wait until view is loaded
             view.when(function () {
